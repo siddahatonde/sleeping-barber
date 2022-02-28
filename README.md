@@ -24,7 +24,5 @@ For fairness, we use executor services to maintain many threads, and we use re-e
 
 Real-World Example:
 The real-world implementation of this is the most dependable portrayal of a call centre. Whenever there isn't a client on the line, all call-attender unwind and sit tight for the call. At the point when the underlying client contacts the number, the person is associated with any call-attender, and if all call-attender are occupied, the client should stand by in a line until a call-attender is distributed to them. Clients are separated with a message asserting chiefs are occupied and clients will be reached later by the organization assuming all leaders are occupied and the holding up line is full.
-The similarities can be defined in three parts. Firstly, the section which can be considered as critical will be the initiated call between the customer and the call attendee. Secondly, the area where all 
-
-the callers wait before the call has been connected is the waiting room where each one of them will be served in FIFO i.e. First In First Out. Lastly, we can execute the locks during the waiting room because of which a single customer won’t be given to two different call attendees if they both get free at the same time.
+The similarities can be defined in three parts. Firstly, the section which can be considered as critical will be the initiated call between the customer and the call attendee. Secondly, the area where all the callers wait before the call has been connected is the waiting room where each one of them will be served in FIFO i.e. First In First Out. Lastly, we can execute the locks during the waiting room because of which a single customer won’t be given to two different call attendees if they both get free at the same time.
 
